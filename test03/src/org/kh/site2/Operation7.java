@@ -56,7 +56,7 @@ public class Operation7 {
 		j <<=2;
 		System.out.println("j <<= 2 : "+ j); // 1 1 1 1 0 0 0 => 120
 		j=30;
-		j >>>=6345034;// <<<= 는 없다
+		j >>>=2;// <<<= 는 없다
 		System.out.println("j >>>= 2 : "+ j);
 
 	}

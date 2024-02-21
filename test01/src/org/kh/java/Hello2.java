@@ -1,13 +1,15 @@
 package org.kh.java;
-import java.util. *;
+
+import java.util.Scanner;
+
 
 public class Hello2 {
 
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
-		System.out.println("정수를 입력하세요 : ");
+		System.out.print("정수를 입력하세요 : ");
 
-		int a = Integer.parseInt(scn.nextLine());
+		int a = scn.nextInt();
 		int num= 2*a - 1;
 		
 		if(a<1)
